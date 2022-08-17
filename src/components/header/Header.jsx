@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Header.module.css';
 import LogoLogo from '../../assets/logo_logo.png';
 import LogoText from '../../assets/logo_product.png';
 import Theme from '../../assets/theme.png';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Header = () => {
+  const [nav, setNav] = useState(false);
+
   return (
     <div className={style.header}>
       <div className='container'>
@@ -15,7 +18,11 @@ const Header = () => {
               <img src={LogoText} alt='/' />
             </div>
             <div className={style.header_menu}>
-              <ul>
+              <ul
+                className={
+                  nav ? [style.menu, style.active].join(' ') : [style.menu]
+                }
+              >
                 <li>
                   <a href='/'>Product</a>
                 </li>
@@ -36,6 +43,9 @@ const Header = () => {
             <button>Sign Up</button>
             <img src={Theme} alt='/' />
           </div>
+        </div>
+        <div onClick={() => setNav(!nav)} className={style.mobile_btn}>
+          {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
         </div>
       </div>
     </div>
