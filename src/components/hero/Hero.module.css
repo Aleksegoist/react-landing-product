@@ -8,7 +8,7 @@
 }
 
 .hero_left {
-  max-width: 458px;
+  width: 458px;
   padding-top: 145px;
   margin-left: 29px;
 }
@@ -58,4 +58,47 @@
   line-height: 24px;
   text-decoration: underline;
   color: #02897a;
+}
+
+@media screen and (max-width: 1060px) {
+  .hero_left {
+    margin-left: 0;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 0;
+  }
+
+  .hero_box {
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .hero_left {
+    width: 600px;
+  }
+
+  .hero_left {
+    margin-left: 0;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .hero_btn {
+    gap: 20px;
+  }
+
+  .hero_btn button {
+    padding: 15px 19px 14px;
+  }
+
+  .hero_left h1 {
+    font-size: 34px;
+    line-height: 45px;
+  }
 }
