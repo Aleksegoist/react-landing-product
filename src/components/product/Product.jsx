@@ -38,7 +38,7 @@ const Product = () => {
           <button>SIGN UP NOW</button>
         </div>
       </div>
-      <div className={style.bg}> </div>
+      <div className={style.bg}></div>
     </div>
   );
 };
