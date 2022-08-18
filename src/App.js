@@ -1,3 +1,4 @@
+import Customer from './components/customer/Customer';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Management from './components/management/Management';
@@ -10,6 +11,7 @@ function App() {
     <Hero />
     <Product />
     <Management />
+    <Customer />
   </div>;
 }
 
