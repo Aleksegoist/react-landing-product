@@ -90,6 +90,10 @@
   }
 
   .bg {
-    height: 40267x;
+    height: 180px;
+  }
+
+  .card_box img {
+    margin-bottom: 5px;
   }
 } ;
