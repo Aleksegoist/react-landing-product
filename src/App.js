@@ -1,5 +1,6 @@
 import Collaborative from './components/collaborative/Collaborative';
 import Customer from './components/customer/Customer';
+import Gallery from './components/gallery/Gallery';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Management from './components/management/Management';
@@ -16,6 +17,7 @@ function App() {
     <Customer />
     <Collaborative />
     <People />
+    <Gallery />
   </div>;
 }
 
