@@ -1,5 +1,7 @@
 import Collaborative from './components/collaborative/Collaborative';
+import Company from './components/company/Company';
 import Customer from './components/customer/Customer';
+import Feedback from './components/feedback/Feedback';
 import Gallery from './components/gallery/Gallery';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
@@ -20,6 +22,8 @@ function App() {
     <People />
     <Gallery />
     <Price />
+    <Feedback />
+    <Company />
   </div>;
 }
 

@@ -1,0 +1,96 @@
+.feedback {
+  width: 100%;
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_block {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  max-width: 537px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 8px;
+}
+
+.title p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.card {
+  max-width: 327px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 26px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 16px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.client p:nth-child(1) {
+  margin: 0;
+  color: #02897a;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.client p:nth-child(2) {
+  margin: 0;
+  color: #252b42;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 1140px) {
+  .box {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .title h1 {
+    font-size: 32px;
+  }
+}

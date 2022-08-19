@@ -1,0 +1,47 @@
+.company {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.container {
+  max-width: 1137px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  max-width: 968px;
+  background: #02897a;
+  border-radius: 32px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h1 {
+  max-width: 510px;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 48px;
+  color: #fff;
+  margin-top: 29px;
+  margin-bottom: 98px;
+  margin-left: 31px;
+}
+
+.title button {
+  background: #ffffff;
+  border-radius: 8px;
+  color: #02897a;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 33px;
+  margin-left: 31px;
+}
+
+.image img {
+  max-width: 100%;
+}
