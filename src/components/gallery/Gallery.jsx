@@ -33,6 +33,18 @@ const Gallery = () => {
               clickable: true,
             }}
             modules={[Pagination]}
+            className={style.myswiper}
+            breakpoints={{
+              320: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1060: {
+                slidesPerView: 3,
+              },
+            }}
           >
             <SwiperSlide>
               <Card
@@ -46,7 +58,7 @@ const Gallery = () => {
               <Card
                 image={Gallery2}
                 make='By Wahid Ari |  03 March 2019'
-                title='Increasing Prosperity With Positive Thinking'
+                title='Motivation Is The First Step To Success'
               />
             </SwiperSlide>
 
@@ -54,16 +66,18 @@ const Gallery = () => {
               <Card
                 image={Gallery3}
                 make='By Wahid Ari |  03 March 2019'
-                title='Increasing Prosperity With Positive Thinking'
+                title='Success Steps For Your Personal Or Business'
               />
             </SwiperSlide>
+
             <SwiperSlide>
               <Card
-                image={Gallery3}
+                image={Gallery2}
                 make='By Wahid Ari |  03 March 2019'
-                title='Increasing Prosperity With Positive Thinking'
+                title='Motivation Is The First Step To Success'
               />
             </SwiperSlide>
+
             <SwiperSlide>
               <Card
                 image={Gallery3}

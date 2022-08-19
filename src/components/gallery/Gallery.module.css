@@ -20,12 +20,6 @@
   line-height: 26px;
 }
 
-/* .gallery_cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 32px;
-} */
-
 .card {
   width: 348px;
   border: 1px solid #dedede;
@@ -50,4 +44,13 @@
   font-size: 24px;
   line-height: 40px;
   margin: 0 0 40px 24px;
+}
+
+.card h2:hover {
+  color: #02897a;
+}
+
+@media (max-width: 400px) {
+  .gallery {
+  }
 }

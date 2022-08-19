@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Management from './components/management/Management';
 import People from './components/people/People';
+import Price from './components/price/Price';
 import Product from './components/product/Product';
 import './index.css';
 
@@ -18,6 +19,7 @@ function App() {
     <Collaborative />
     <People />
     <Gallery />
+    <Price />
   </div>;
 }
 
