@@ -48,3 +48,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+:root .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+}
+:root .swiper-pagination-bullet-active {
+  width: 16px;
+  height: 16px;
+  background: #02897a;
+}
+:root .swiper-pagination {
+  position: relative;
+  top: 59px;
+  height: 80px;
+}

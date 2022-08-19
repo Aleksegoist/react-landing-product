@@ -25,15 +25,14 @@ const Gallery = () => {
               keystroke away.
             </p>
           </div>
-          {/* <div className={style.gallery_cards}> */}
+
           <Swiper
             slidesPerView={3}
-            spaceBetween={24}
+            spaceBetween={32}
             pagination={{
               clickable: true,
             }}
             modules={[Pagination]}
-            className={style.mySwiper}
           >
             <SwiperSlide>
               <Card
@@ -76,7 +75,6 @@ const Gallery = () => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 
