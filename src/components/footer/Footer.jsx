@@ -8,7 +8,7 @@ import Twi from '../../assets/twi.png';
 
 const Footer = () => {
   return (
-    <div className={style.footer}>
+    <footer className={style.footer}>
       <div className='container'>
         <div className={style.box}>
           <div className={style.left_block}>
@@ -76,7 +76,7 @@ const Footer = () => {
           <p>Made With Love By AYDev. 2022 All Right Reserved</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
