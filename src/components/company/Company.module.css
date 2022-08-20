@@ -40,8 +40,38 @@
   line-height: 30px;
   padding: 10px 33px;
   margin-left: 31px;
+  transition: 0.4s;
+}
+
+.title button:hover {
+  border: 1px solid #fff;
+  background: #02897a;
+  color: #fff;
 }
 
 .image img {
   max-width: 100%;
+}
+
+@media screen and (max-width: 660px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title h1 {
+    margin: 0 0 20px 0;
+    font-size: 27px;
+    line-height: 40px;
+  }
+
+  .box {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .title button {
+    margin-left: 0;
+  }
 }
